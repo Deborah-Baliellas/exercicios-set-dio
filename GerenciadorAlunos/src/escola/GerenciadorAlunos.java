@@ -52,6 +52,10 @@ public class GerenciadorAlunos {
         }
     }
 
+    public Set<Aluno> exibirAlunos(){
+        return alunoSet;
+    }
+
     public static void main(String[] args) throws Exception {
         GerenciadorAlunos gerenciadorAlunos = new GerenciadorAlunos();
 
